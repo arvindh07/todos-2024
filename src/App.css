@@ -1,0 +1,75 @@
+/* ---------- */
+*{
+  background-color: white;
+}
+.heading{
+  text-align: center;
+}
+
+.add__btn{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  display: block;
+  margin: 0 auto 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s;
+  font-size: 1rem;
+}
+
+.add__btn:hover{
+  opacity: 0.8;
+}
+
+.todo__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo__card{
+  border: 2px solid violet;
+  border-radius: 8px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+/* add todo */
+.form_todo {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_input {
+  display: flex;
+  gap: 12px;
+  margin: 0.5rem 0;
+  align-items: center;
+}
+
+.form_input label {
+  width: 100px;
+}
+
+.form_input input {
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+h1 span{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: normal;
+}
